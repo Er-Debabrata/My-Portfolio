@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0194a8d6a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.webp" class="logo">
+
+                <ul>
+                    <li><a href="#header" class="navlink">Home</a></li>
+                    <li><a href="#about" class="navlink">About</a></li>
+                    <li><a href="#services" class="navlink">Services</a></li>
+                    <li><a href="#portfolio" class="navlink">Portfolio</a></li>
+                    <li><a href="#contact" class="navlink">Contact</a></li>
+                </ul>
+
+            </nav>
+            <div class="header-text">
+                <p>ENGINEER</p>
+                <h1>Hi,I'm <span>DEBABRATA</span><br> MAHNATA</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm <span>Debabrata Mahanta</span>, a passionate and driven student currently pursuing my
+                        studies at
+                        <span>Government College of Engineering, Keonjhar</span>. With a strong interest in technology
+                        and
+                        problem-solving, I am constantly working on improving my skills and knowledge to stay ahead in
+                        this ever-evolving field. <br>
+
+                        I believe in continuous learning, staying curious, and adapting to new challenges. Whether it’s
+                        working on a team project or taking initiative on my own, I always aim to give my best with a
+                        positive and solution-oriented mindset. <br>
+
+                        I’m not just preparing to graduate—I’m preparing to make an impact. My goal is to secure a
+                        position in a company where I can contribute meaningfully, grow professionally, and be part of
+                        something innovative and exciting. I bring dedication, teamwork, and a strong willingness to
+                        learn to every opportunity I pursue.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tablink activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablink" onclick="opentab('experience')">Experience</p>
+                        <p class="tablink" onclick="opentab('educatsion')">Educatsion</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>INTERNSHIP AT JSPL</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="educatsion">
+                        <ul>
+                            <li><span>2027</span><br>BTECH FROM GCE,KEONJHAR</li>
+                            <li><span>2023</span><br>12TH FROM OAV CHAMPUA</li>
+                            <li><span>2021</span><br>1OTH FROM OAV CHAMPUA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating user-friendly and smooth web pages.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating best Design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield"></i>
+                    <h2>Cybersecurity</h2>
+                    <p>Learning.p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="work1.jpg">
+                    <div class="layer">
+                        <h3>HTML webpage</h3>
+                        <p>HTML, or HyperText Markup Language, is the standard language for creating web pages. It uses
+                            a system of tags to structure content like text, images, and links, telling browsers how to
+                            display it.</p>
+                        <a href="#"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layer">
+                        <h3>UX Design of mobile</h3>
+                        <p>Mobile UX design focuses on creating intuitive, user-friendly experiences for mobile devices.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-mobile-button"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work4.jpeg">
+                    <div class="layer">
+                        <h3>firewall security</h3>
+                        <p>A firewall is a crucial network security device that acts as a barrier between a trusted
+                            internal network and untrusted external networks like the internet. </p>
+                        <a href="#"><i class="fa-solid fa-shield-virus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>debabrtamahanta567@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6370078399</p>
+                    <div class="socialicons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href=" " download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Meassage" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169; Debabrata. Made With <i class="fa-solid fa-heart"></i> by DEBABRATA MAHANTA</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablink");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("activelink");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+            }
+
+            // Add active class to the clicked tab and its content
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['WEB DEVELOPER', 'WEB DESIGNER', 'GATE QUALIFIED'],
+            typeSpeed: 30,
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
